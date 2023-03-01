@@ -1,0 +1,19 @@
+
+:root {
+    --Black: #322625;
+    --Grey: #ebebeb;
+    --Blue: #c0e3e5;
+    --Yellow: #fdc936;
+  }
+.Table {
+    width: 98%;
+    margin: 0 auto;
+}
+th {
+    background-color: var(--Blue) !important;
+    color: var(--Black) !important;
+    font-size: 14px !important;
+}
+tr:nth-child(1) {
+    background-color: var(--Grey) !important;
+}   
